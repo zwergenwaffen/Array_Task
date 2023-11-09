@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Main
 {
@@ -32,11 +33,7 @@ class Array
         }
 
         System.out.println("Following array: ");
-        for(int i=0; i<length; i++)
-        {
-            System.out.print(Array[i]+" ");
-        }
-        System.out.println("");
+        System.out.println(Arrays.toString(Array));
     }
 
     public void tinder()
